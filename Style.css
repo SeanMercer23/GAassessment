@@ -1,0 +1,58 @@
+h1 {
+	color: #d641f4;
+	font-family: 'Charm', cursive;
+	font-size: 80px;
+}
+
+h4 {
+	font-family: 'Charm', cursive;
+	color: #ed7474;
+}
+
+.subheader {
+	font-family: 'Shrikhand', cursive;
+	color: #34f9de;
+}
+
+.mainText {
+	font-family: 'Spicy Rice', cursive;
+	color: #34f993;
+}
+
+ul {
+	font-family: 'Spicy Rice', cursive;
+}
+
+body {
+	text-align: center;
+	background-image: url(https://i.imgur.com/y6fjYGc.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+button {
+	color: rgba(255,255, 255, 1);
+	background-color: #f9131b;
+}
+
+a {
+	color: #f4e241;
+}
+
+input[type="submit"] {
+	background: #f96312;
+	color: white;
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 40px
+	}
+	.subheader {
+		font-size: 20px
+	}
+
+	.mainText {
+		font-size: 15px
+	}
+}
